@@ -1,5 +1,6 @@
 import Footer from '../Footer/Footer';
 import './contact.css';
+import vikrantResume from "/src/assets/vikrant Tanwar Resume.pdf"
 
 
 export default function Contact(){
@@ -27,7 +28,7 @@ export default function Contact(){
                 </form>
             </div>
 
-            <Footer title="Resume" about="Read about my full story in the resume." btnText="Dowload Resume" link="/src/assets/Vikrant Tanwar Resume.pdf" />
+            <Footer title="Resume" about="Read about my full story in the resume." btnText="Dowload Resume" link={vikrantResume} />
         </div>
     )
 }
