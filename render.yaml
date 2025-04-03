@@ -1,0 +1,7 @@
+yaml services:
+-type: web
+name: Portfolio
+buildCommand: npm install && npm run build
+startCommand: npm start
+staticPublishPath: ./dist
+plan: free
