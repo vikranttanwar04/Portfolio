@@ -32,7 +32,7 @@ export default function Resume(){
                 <Card src={expressjs_logo} title="Express.js" alt="Express.js" brief="Js Framework for backend"/>
                 <Card src={nodejs_logo} title="Node.js" alt="Node.js" brief="Runtime Environment" />
                 <Card src={mongo_logo} title="MongoDB" alt="MongoDB" brief="Non Relational Database"/>
-                <Card src="/src/assets/mysql-logo.svg" title="mySQL" alt="mySQL" brief="Relational Database" />
+                <Card src={mysql_logo} title="mySQL" alt="mySQL" brief="Relational Database" />
                 <Card src={Bootstrap_logo} title="Bootstrap" alt="Bootstrap" brief="Frontend Library"/>
                 <Card src={materialUI_logo} title="Material UI" alt="Material UI" brief="Frontend Library"/>
             </div>
