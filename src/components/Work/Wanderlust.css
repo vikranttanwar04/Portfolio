@@ -1,0 +1,8 @@
+.work-hero{
+    color: #fff;
+    background-image: linear-gradient(to top, #000,#111);
+}
+
+.work-hero p{
+    color: grey;
+}

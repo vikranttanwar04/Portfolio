@@ -1,0 +1,59 @@
+#contact-body{
+    background-color: #000;
+}
+
+form{
+    padding: 1rem 2rem;
+}
+
+#contact-body header{
+    background-color: #2b292994;
+}
+
+#contact-body header a{
+    border: 1px solid #FFF;
+}
+
+input, textarea{
+    border: none;
+    border-radius: 0.3rem;
+}
+
+/* .msg-box{
+    display: flex;
+    justify-content: center;
+} */
+
+/* .msg-box textarea{
+    width: 22rem;
+    margin-left: 1.5rem;
+} */
+
+.send-btn{
+    border: none;
+    border-radius: 0.3rem;
+}
+
+@media(max-width: 900px){
+    .input-boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-boxes input{
+        margin: 0;
+        width: 30rem
+    }
+
+    .msg-box textarea{
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+    .send-btn{
+        width: 30rem;
+        margin: 0 auto;
+    }
+}

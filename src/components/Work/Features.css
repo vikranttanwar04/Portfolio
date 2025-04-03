@@ -1,0 +1,11 @@
+#project-features{
+    width: 12.5rem;
+    max-width: 200px;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    background-image: linear-gradient(to top, #000,#111);
+    color: #FFF;
+    margin: 1rem 1.5rem;
+    box-shadow: 2px 2px 2px #000;
+}

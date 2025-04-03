@@ -1,0 +1,15 @@
+.value-box{
+    width: 70%;
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+}
+
+@media (max-width: 500px){
+    .value-box{
+        width: 100%;
+        text-align: start;
+        margin: 0.5rem 0.5rem 1.5rem 0.5rem;
+    }
+}
