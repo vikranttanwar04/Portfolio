@@ -10,7 +10,7 @@ import mongo_logo from "/src/assets/mongo.webp";
 import mysql_logo from "/src/assets/mysql-logo.svg";
 import nodejs_logo from "/src/assets/Node.js_logo.svg";
 import react_logo from "/src/assets/react.svg";
-import vikrantResume from "/src/assets/vikrant Tanwar Resume.pdf"
+import vikrantResume from "/src/assets/Vikrant Tanwar Resume.pdf"
 
 export default function Resume(){
     return(
