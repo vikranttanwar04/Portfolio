@@ -3,6 +3,13 @@ import Value from "../SubHero/Value.jsx";
 import Para from "../SubHero/Paras.jsx";
 import Card from './card.jsx';
 import Footer from "../Footer/Footer.jsx";
+import Bootstrap_logo from "/src/assets/Bootstrap_logo.svg.png";
+import expressjs_logo from "/src/assets/expressjs.webp";
+import materialUI_logo from "/src/assets/material-ui.svg";
+import mongo_logo from "/src/assets/mongo.webp";
+import mysql_logo from "/src/assets/mysql-logo.svg";
+import nodejs_logo from "/src/assets/Node.js_logo.svg";
+import react_logo from "/src/assets/react.svg";
 
 export default function Resume(){
     return(
@@ -21,13 +28,13 @@ export default function Resume(){
 
             <h4 className='ps-4'>Skills I have worked on as a <strong>MERN STACK DEVELOPER: </strong></h4>
             <div className="skills">
-                <Card src="/src/assets/react.svg" title="React.js" alt="React.js" brief="Frontend Framework"/>
-                <Card src="/src/assets/expressjs.webp" title="Express.js" alt="Express.js" brief="Js Framework for backend"/>
-                <Card src="/src/assets/Node.js_logo.svg" title="Node.js" alt="Node.js" brief="Runtime Environment" />
-                <Card src="/src/assets/mongo.webp" title="MongoDB" alt="MongoDB" brief="Non Relational Database"/>
+                <Card src={react_logo} title="React.js" alt="React.js" brief="Frontend Framework"/>
+                <Card src={expressjs_logo} title="Express.js" alt="Express.js" brief="Js Framework for backend"/>
+                <Card src={nodejs_logo} title="Node.js" alt="Node.js" brief="Runtime Environment" />
+                <Card src={mongo_logo} title="MongoDB" alt="MongoDB" brief="Non Relational Database"/>
                 <Card src="/src/assets/mysql-logo.svg" title="mySQL" alt="mySQL" brief="Relational Database" />
-                <Card src="/src/assets/Bootstrap_logo.svg.png" title="Bootstrap" alt="Bootstrap" brief="Frontend Library"/>
-                <Card src="/src/assets/material-ui.svg" title="Material UI" alt="Material UI" brief="Frontend Library"/>
+                <Card src={Bootstrap_logo} title="Bootstrap" alt="Bootstrap" brief="Frontend Library"/>
+                <Card src={materialUI_logo} title="Material UI" alt="Material UI" brief="Frontend Library"/>
             </div>
 
             <div className='px-4'>
