@@ -57,3 +57,14 @@ input, textarea{
         margin: 0 auto;
     }
 }
+
+.alert-box{
+    width: 50%;
+    max-width: 437px;
+    color: #0A3622;
+    background-color: #D1E7DD;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    border-radius: 0.3rem;
+}
