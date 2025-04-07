@@ -8,7 +8,7 @@ export default function Home(){
         <main>
             <Hero />
             <SubHero />
-            <Footer title="Resume" about="Read more about my experience." btnText="Show resume" link="/resume" />
+            <Footer title="Resume" about="Read more about my experience." btnText="Show resume" link="resume" />
         </main>
     )
 }
