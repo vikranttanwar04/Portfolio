@@ -3,7 +3,6 @@ import Footer from '../Footer/Footer';
 import './contact.css';
 import vikrantResume from "/src/assets/vikrant Tanwar Resume.pdf"
 
-
 export default function Contact(){
 
     const [alert, setAlert] = useState(false);
