@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Footer from '../Footer/Footer';
 import './contact.css';
-import vikrantResume from "/src/assets/vikrant Tanwar Resume.pdf"
+import vikrantResume from "/src/assets/Vikrant Tanwar Resume.pdf"
 
 export default function Contact(){
 
