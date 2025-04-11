@@ -59,7 +59,7 @@ export default function Contact(){
 
             <div>
                 <h2 className='text-light text-center'>Get in touch.</h2>
-                <form method="post" action='https://formsubmit.co/vikranttanwar124108@gmail.com' >
+                <form method="POST" action='https://formsubmit.co/vikranttanwar124108@gmail.com' >
                     <div className='row input-boxes'>
                         <input className="p-2 me-1 mb-2 col-2 offset-4" type="text" placeholder="Name" name="user" required/>
                         <input className="p-2 mb-2 col-2" type="email" placeholder="Email" name="email" required/>
