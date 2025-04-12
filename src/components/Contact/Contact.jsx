@@ -69,8 +69,8 @@ export default function Contact(){
                         <textarea className="p-2 mb-2 col-4 offset-4" rows="5" cols="44" placeholder="Message" name="msg" required/><br />
                     </div>
                     <div className='row'>
-                        <input type="hidden" name="_next" value="https://portfolio-q79b.onrender.com/contact" />
-                        <button type="Submit" className='send-btn p-2 col-4 offset-4' name='_captcha' value="false" >Send</button>
+                        <input type="hidden" name='_captcha' value="false" />
+                        <button type="Submit" className='send-btn p-2 col-4 offset-4'>Send</button>
                     </div>
                 </form>
             </div>
