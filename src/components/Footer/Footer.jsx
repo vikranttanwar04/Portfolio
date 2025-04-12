@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 export default function Footer({title, about, btnText, link}){
@@ -6,7 +7,7 @@ export default function Footer({title, about, btnText, link}){
         <div className='content'>
             <h2>{title}</h2>
             <p className='text-secondary'>{about}</p>
-            <a className="resume-button" href={link}>{btnText}</a>
+            <Link className="resume-button" to={link}>{btnText}</Link>
         </div>
     </footer>
     )
