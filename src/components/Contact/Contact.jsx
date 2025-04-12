@@ -75,7 +75,14 @@ export default function Contact(){
                 </form>
             </div>
 
-            <Footer title="Resume" about="Read about my full story in the resume." btnText="Dowload Resume" link={vikrantResume} />
+{/*             <Footer title="Resume" about="Read about my full story in the resume." btnText="Dowload Resume" link={vikrantResume} /> */}
+            <footer className="mt-4">
+                <div className="content">
+                    <h2>Resume</h2>
+                    <p className="text-secondary">Read aout my full story in the resume.</p>
+                    <a className="resume-button" href={vikrantResume}> Dowload Resume </a>
+                </div>
+              </footer>
         </div>
     )
 }
